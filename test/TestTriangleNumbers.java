@@ -10,7 +10,7 @@ public class TestTriangleNumbers {
 
     @Test
     public void shouldReturnFirstTriangleNumberWithMoreThan500Factors() {
-        assertEquals(28, TriangleNumbers.findFirstTriangleNumberWithNumberOfFactors(500));
+        assertEquals(76576500, TriangleNumbers.findFirstTriangleNumberWithNumberOfFactors(500));
     }
 
     @Test
